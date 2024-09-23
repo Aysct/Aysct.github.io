@@ -357,11 +357,11 @@ $$
 	
 	
 ></p>
-<p>答案即为 $\det L(G)\begin{pmatrix}1,2,\cdots,n-1 \ 1,2,\cdots,n-1\end{pmatrix}$</p>
-<p>所以，生成树个数即为 $\binom{n-1}{m}\det L(G)\begin{pmatrix}1,2,\cdots,n-1 \ 1,2,\cdots,n-1\end{pmatrix}$.</p>
+<p>答案即为 $\det L(G)\begin{pmatrix}1,2,\cdots,n-1 \\ 1,2,\cdots,n-1\end{pmatrix}$</p>
+<p>所以，生成树个数即为 $\binom{n-1}{m}\det L(G)\begin{pmatrix}1,2,\cdots,n-1 \\ 1,2,\cdots,n-1\end{pmatrix}$.</p>
 <p>使用高斯消元可以做到 $O(n^3)$，可以拿到 $70$ 分。</p>
-<p>另外注意到 $L(G)\begin{pmatrix}1,2,\cdots,n-1 \ 1,2,\cdots,n-1\end{pmatrix}$ 的行和以及列和都是定值，我们可以手动把这个矩阵消成上三角。</p>
-<p>最后得到 $\det L(G)\begin{pmatrix}1,2,\cdots,n-1 \ 1,2,\cdots,n-1\end{pmatrix} = m^{n-m-1}(n-m)^{m-1}$。</p>
+<p>另外注意到 $L(G)\begin{pmatrix}1,2,\cdots,n-1 \\ 1,2,\cdots,n-1\end{pmatrix}$ 的行和以及列和都是定值，我们可以手动把这个矩阵消成上三角。</p>
+<p>最后得到 $\det L(G)\begin{pmatrix}1,2,\cdots,n-1 \\ 1,2,\cdots,n-1\end{pmatrix} = m^{n-m-1}(n-m)^{m-1}$。</p>
 <p>答案即为 $\binom{n-1}{m}m^{n-m-1}(n-m)^{m-1}$</p>
 <h4 id="方法2">方法2
 </h4><p>根据网络上的信息，我们可以直接用 prufer 做。</p>
@@ -372,10 +372,10 @@ $$
 <p>考虑把树放入集合 $T$ 中，用 $x$ 计数奇数点，$y$ 计数偶数点。</p>
 <p>可以得到 $T=x\exp(y\exp{T})$。
 $$
-(n-1)![x^{n-m}y^m]T = \frac{(n-1)!}{(n-m)}[x^{n-m-1}y^m]\exp(y\exp{x})^{n-m}\
-= \frac{(n-1)!(n-m)^{m-1}}{m!}[x^{n-m-1}]\exp{mx}\
-= \frac{(n-1)!(n-m)^{m-1}m^{n-m-1}}{m!(n-m-1)!}\
-= \binom{n-1}{m}(n-m)^{m-1}m^{n-m-1}\
+(n-1)![x^{n-m}y^m]T = \frac{(n-1)!}{(n-m)}[x^{n-m-1}y^m]\exp(y\exp{x})^{n-m}\\
+= \frac{(n-1)!(n-m)^{m-1}}{m!}[x^{n-m-1}]\exp{mx}\\
+= \frac{(n-1)!(n-m)^{m-1}m^{n-m-1}}{m!(n-m-1)!}\\
+= \binom{n-1}{m}(n-m)^{m-1}m^{n-m-1}
 $$
 做完了，去™的二分图。</p>
 

@@ -39,11 +39,11 @@ $$
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;答案即为 $\det L(G)\begin{pmatrix}1,2,\cdots,n-1 \ 1,2,\cdots,n-1\end{pmatrix}$&lt;/p&gt;
-&lt;p&gt;所以，生成树个数即为 $\binom{n-1}{m}\det L(G)\begin{pmatrix}1,2,\cdots,n-1 \ 1,2,\cdots,n-1\end{pmatrix}$.&lt;/p&gt;
+&lt;p&gt;答案即为 $\det L(G)\begin{pmatrix}1,2,\cdots,n-1 \\ 1,2,\cdots,n-1\end{pmatrix}$&lt;/p&gt;
+&lt;p&gt;所以，生成树个数即为 $\binom{n-1}{m}\det L(G)\begin{pmatrix}1,2,\cdots,n-1 \\ 1,2,\cdots,n-1\end{pmatrix}$.&lt;/p&gt;
 &lt;p&gt;使用高斯消元可以做到 $O(n^3)$，可以拿到 $70$ 分。&lt;/p&gt;
-&lt;p&gt;另外注意到 $L(G)\begin{pmatrix}1,2,\cdots,n-1 \ 1,2,\cdots,n-1\end{pmatrix}$ 的行和以及列和都是定值，我们可以手动把这个矩阵消成上三角。&lt;/p&gt;
-&lt;p&gt;最后得到 $\det L(G)\begin{pmatrix}1,2,\cdots,n-1 \ 1,2,\cdots,n-1\end{pmatrix} = m^{n-m-1}(n-m)^{m-1}$。&lt;/p&gt;
+&lt;p&gt;另外注意到 $L(G)\begin{pmatrix}1,2,\cdots,n-1 \\ 1,2,\cdots,n-1\end{pmatrix}$ 的行和以及列和都是定值，我们可以手动把这个矩阵消成上三角。&lt;/p&gt;
+&lt;p&gt;最后得到 $\det L(G)\begin{pmatrix}1,2,\cdots,n-1 \\ 1,2,\cdots,n-1\end{pmatrix} = m^{n-m-1}(n-m)^{m-1}$。&lt;/p&gt;
 &lt;p&gt;答案即为 $\binom{n-1}{m}m^{n-m-1}(n-m)^{m-1}$&lt;/p&gt;
 &lt;h4 id=&#34;方法2&#34;&gt;方法2
 &lt;/h4&gt;&lt;p&gt;根据网络上的信息，我们可以直接用 prufer 做。&lt;/p&gt;
@@ -54,10 +54,10 @@ $$
 &lt;p&gt;考虑把树放入集合 $T$ 中，用 $x$ 计数奇数点，$y$ 计数偶数点。&lt;/p&gt;
 &lt;p&gt;可以得到 $T=x\exp(y\exp{T})$。
 $$
-(n-1)![x^{n-m}y^m]T = \frac{(n-1)!}{(n-m)}[x^{n-m-1}y^m]\exp(y\exp{x})^{n-m}\
-= \frac{(n-1)!(n-m)^{m-1}}{m!}[x^{n-m-1}]\exp{mx}\
-= \frac{(n-1)!(n-m)^{m-1}m^{n-m-1}}{m!(n-m-1)!}\
-= \binom{n-1}{m}(n-m)^{m-1}m^{n-m-1}\
+(n-1)![x^{n-m}y^m]T = \frac{(n-1)!}{(n-m)}[x^{n-m-1}y^m]\exp(y\exp{x})^{n-m}\\
+= \frac{(n-1)!(n-m)^{m-1}}{m!}[x^{n-m-1}]\exp{mx}\\
+= \frac{(n-1)!(n-m)^{m-1}m^{n-m-1}}{m!(n-m-1)!}\\
+= \binom{n-1}{m}(n-m)^{m-1}m^{n-m-1}
 $$
 做完了，去™的二分图。&lt;/p&gt;
 </description>
