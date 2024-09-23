@@ -13,7 +13,7 @@
         <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
         
         <guid>https://aysct.github.io/p/apokalis/</guid>
-        <description>&lt;p&gt;（彩蛋：大样例是从数据里扒的，且没有绑点）。&lt;/p&gt;
+        <description>&lt;img src="https://cdn.luogu.com.cn/upload/image_hosting/8cuw5r1m.png" alt="Featured image of post 大发明家简略题解" /&gt;&lt;p&gt;（彩蛋：大样例是从数据里扒的，且没有绑点）。&lt;/p&gt;
 &lt;p&gt;由于组题人电脑坏了，所以只能写简略题解了(其实是组题人的口胡碎碎念),写的不清晰的和部分分可以听讲题(可能有一些地方我下意识省略了,可以来问我).&lt;/p&gt;
 &lt;p&gt;首先,生成到完美的时间线的概率是固定的,如果我们假设概率为
 $$

@@ -10,9 +10,10 @@
 <meta property='og:description' content="（彩蛋：大样例是从数据里扒的，且没有绑点）。\n由于组题人电脑坏了，所以只能写简略题解了(其实是组题人的口胡碎碎念),写的不清晰的和部分分可以听讲题(可能有一些地方我下意识省略了,可以来问我).\n">
 <meta property='og:url' content='https://aysct.github.io/p/apokalis/'>
 <meta property='og:site_name' content='Aysct'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='题解' /><meta property='article:tag' content='图论' /><meta property='article:tag' content='数数' /><meta property='article:published_time' content='2024-09-23T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-09-23T00:00:00&#43;00:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='题解' /><meta property='article:tag' content='图论' /><meta property='article:tag' content='数数' /><meta property='article:published_time' content='2024-09-23T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-09-23T00:00:00&#43;00:00'/><meta property='og:image' content='https://cdn.luogu.com.cn/upload/image_hosting/8cuw5r1m.png' />
 <meta name="twitter:title" content="大发明家简略题解">
-<meta name="twitter:description" content="（彩蛋：大样例是从数据里扒的，且没有绑点）。\n由于组题人电脑坏了，所以只能写简略题解了(其实是组题人的口胡碎碎念),写的不清晰的和部分分可以听讲题(可能有一些地方我下意识省略了,可以来问我).\n">
+<meta name="twitter:description" content="（彩蛋：大样例是从数据里扒的，且没有绑点）。\n由于组题人电脑坏了，所以只能写简略题解了(其实是组题人的口胡碎碎念),写的不清晰的和部分分可以听讲题(可能有一些地方我下意识省略了,可以来问我).\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://cdn.luogu.com.cn/upload/image_hosting/8cuw5r1m.png' />
     </head>
     <body class="
     article-page
@@ -271,10 +272,26 @@
 
 
             <main class="main full-width">
-    <article class="main-article">
+    <article class="has-image main-article">
     <header class="article-header">
+        <div class="article-image">
+            <a href="/p/apokalis/">
+                
+                    <img src="https://cdn.luogu.com.cn/upload/image_hosting/8cuw5r1m.png" loading="lazy" alt="Featured image of post 大发明家简略题解" />
+                
+            </a>
+        </div>
+    
 
     <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/zuti/" >
+                组题与改编
+            </a>
+        
+    </header>
     
 
     <div class="article-title-wrapper">
@@ -444,55 +461,34 @@ $$
      
     
         
-    <div class="disqus-container">
-    <div id="disqus_thread"></div>
-<script>
-    window.disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</div>
+    <div id="cusdis_thread"
+    data-host="https://cusdis.com"
+    data-app-id="8dc26e18-48f3-4405-9433-ffc0f9dc736a"
+    data-page-id="fbffa9ceaf3e89752901a7cfbf6000dc"
+    data-page-url="https://aysct.github.io/p/apokalis/"
+    data-page-title="大发明家简略题解"></div>
+    <script async defer src="https://cusdis.com/js/widget/lang/zh-cn.js"></script>
+<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
 
-<style>
-    .disqus-container {
-        background-color: var(--card-background);
-        border-radius: var(--card-border-radius);
-        box-shadow: var(--shadow-l1);
-        padding: var(--card-padding);
+<script>
+    function setCusdisTheme(theme) {
+        let cusdis = document.querySelector('#cusdis_thread iframe');
+        if (cusdis) {
+            window.CUSDIS.setTheme(theme)
+        }
     }
-</style>
 
-<script>
     window.addEventListener('onColorSchemeChange', (e) => {
-        if (typeof DISQUS == 'object') {
-            DISQUS.reset({
-                reload: true
-            });
-        }
+        setCusdisTheme(e.detail)
     })
 </script>
+
 
     
 
     <footer class="site-footer">
     <section class="copyright">
         &copy; 
-        
-            2020 - 
         
         2024 Aysct
     </section>

@@ -13,7 +13,7 @@
         <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
         
         <guid>https://aysct.github.io/p/apokalis/</guid>
-        <description>&lt;p&gt;（彩蛋：大样例是从数据里扒的，且没有绑点）。&lt;/p&gt;
+        <description>&lt;img src="https://cdn.luogu.com.cn/upload/image_hosting/8cuw5r1m.png" alt="Featured image of post 大发明家简略题解" /&gt;&lt;p&gt;（彩蛋：大样例是从数据里扒的，且没有绑点）。&lt;/p&gt;
 &lt;p&gt;由于组题人电脑坏了，所以只能写简略题解了(其实是组题人的口胡碎碎念),写的不清晰的和部分分可以听讲题(可能有一些地方我下意识省略了,可以来问我).&lt;/p&gt;
 &lt;p&gt;首先,生成到完美的时间线的概率是固定的,如果我们假设概率为
 $$
@@ -63,23 +63,6 @@ $$
 </description>
         </item>
         <item>
-        <title>doumou</title>
-        <link>https://aysct.github.io/p/doumou/</link>
-        <pubDate>Sun, 22 Sep 2024 18:54:08 +0800</pubDate>
-        
-        <guid>https://aysct.github.io/p/doumou/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;https://aysct.github.io/test.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;人身攻击dm同学&lt;/p&gt;
-</description>
-        </item>
-        <item>
         <title>ketex</title>
         <link>https://aysct.github.io/p/ketex/</link>
         <pubDate>Sun, 22 Sep 2024 18:54:08 +0800</pubDate>
@@ -88,6 +71,23 @@ $$
         <description>&lt;p&gt;$$
 e^{i\pi} + 1 = 0
 $$&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>爱莉希雅世界第一好看</title>
+        <link>https://aysct.github.io/p/%E7%88%B1%E8%8E%89%E5%B8%8C%E9%9B%85%E4%B8%96%E7%95%8C%E7%AC%AC%E4%B8%80%E5%A5%BD%E7%9C%8B/</link>
+        <pubDate>Sun, 22 Sep 2024 18:54:08 +0800</pubDate>
+        
+        <guid>https://aysct.github.io/p/%E7%88%B1%E8%8E%89%E5%B8%8C%E9%9B%85%E4%B8%96%E7%95%8C%E7%AC%AC%E4%B8%80%E5%A5%BD%E7%9C%8B/</guid>
+        <description>&lt;img src="https://aysct.github.io/image/aili.png" alt="Featured image of post 爱莉希雅世界第一好看" /&gt;&lt;p&gt;&lt;img src=&#34;https://aysct.github.io/image/aili.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;爱莉希雅世界第一好看&lt;/p&gt;
 </description>
         </item>
         <item>
