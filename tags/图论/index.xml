@@ -31,7 +31,7 @@ $$
 &lt;p&gt;对于每个二分图,我们要计算其生成树个数.&lt;/p&gt;
 &lt;h4 id=&#34;方法1&#34;&gt;方法1
 &lt;/h4&gt;&lt;p&gt;考虑这个完全二分图的生成树个数可以用 Matrix Tree Theorem.直接写出这个完全二分图的 laplace 矩阵 $L(G)$:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://images.cnblogs.com/cnblogs_com/blogs/816446/galleries/2422552/o_240923012018_cdq.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://aysct.github.io/image/laplacematrix.png&#34;
 	
 	
 	
