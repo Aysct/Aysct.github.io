@@ -1,41 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Posts on Aysct</title>
-        <link>https://example.com/post/</link>
-        <description>Recent content in Posts on Aysct</description>
+        <title>题解 on Aysct</title>
+        <link>https://example.com/tags/%E9%A2%98%E8%A7%A3/</link>
+        <description>Recent content in 题解 on Aysct</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>Aysct</copyright>
-        <lastBuildDate>Sun, 22 Sep 2024 18:54:08 +0800</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>doumou</title>
-        <link>https://example.com/p/doumou/</link>
-        <pubDate>Sun, 22 Sep 2024 18:54:08 +0800</pubDate>
-        
-        <guid>https://example.com/p/doumou/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;https://example.com/test.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;人身攻击dm同学&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>ketex</title>
-        <link>https://example.com/p/ketex/</link>
-        <pubDate>Sun, 22 Sep 2024 18:54:08 +0800</pubDate>
-        
-        <guid>https://example.com/p/ketex/</guid>
-        <description>&lt;p&gt;$$
-e^{i\pi} + 1 = 0
-$$&lt;/p&gt;
-</description>
-        </item>
-        <item>
+        <copyright>Aysct</copyright><atom:link href="https://example.com/tags/%E9%A2%98%E8%A7%A3/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>大发明家简略题解</title>
         <link>https://example.com/p/apokalis/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
