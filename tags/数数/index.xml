@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>数数 on Aysct</title>
-        <link>https://example.com/tags/%E6%95%B0%E6%95%B0/</link>
+        <link>https://aysct.github.io/tags/%E6%95%B0%E6%95%B0/</link>
         <description>Recent content in 数数 on Aysct</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Aysct</copyright>
-        <lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/%E6%95%B0%E6%95%B0/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://aysct.github.io/tags/%E6%95%B0%E6%95%B0/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>大发明家简略题解</title>
-        <link>https://example.com/p/apokalis/</link>
+        <link>https://aysct.github.io/p/apokalis/</link>
         <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/apokalis/</guid>
+        <guid>https://aysct.github.io/p/apokalis/</guid>
         <description>&lt;p&gt;（彩蛋：大样例是从数据里扒的，且没有绑点）。&lt;/p&gt;
 &lt;p&gt;由于组题人电脑坏了，所以只能写简略题解了(其实是组题人的口胡碎碎念),写的不清晰的和部分分可以听讲题(可能有一些地方我下意识省略了,可以来问我).&lt;/p&gt;
 &lt;p&gt;首先,生成到完美的时间线的概率是固定的,如果我们假设概率为

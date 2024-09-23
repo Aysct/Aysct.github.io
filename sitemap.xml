@@ -1,21 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>https://example.com/zh-cn/sitemap.xml</loc>
-    
-      <lastmod>2024-09-23T00:00:00+00:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://example.com/en/sitemap.xml</loc>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://example.com/ar/sitemap.xml</loc>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://aysct.github.io/</loc>
+    <lastmod>2024-09-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aysct.github.io/post/</loc>
+    <lastmod>2024-09-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aysct.github.io/tags/</loc>
+    <lastmod>2024-09-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aysct.github.io/p/apokalis/</loc>
+    <lastmod>2024-09-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aysct.github.io/tags/%E6%95%B0%E6%95%B0/</loc>
+    <lastmod>2024-09-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aysct.github.io/tags/%E9%A2%98%E8%A7%A3/</loc>
+    <lastmod>2024-09-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aysct.github.io/tags/%E5%9B%BE%E8%AE%BA/</loc>
+    <lastmod>2024-09-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aysct.github.io/p/doumou/</loc>
+    <lastmod>2024-09-22T18:54:08+08:00</lastmod>
+  </url><url>
+    <loc>https://aysct.github.io/p/ketex/</loc>
+    <lastmod>2024-09-22T18:54:08+08:00</lastmod>
+  </url><url>
+    <loc>https://aysct.github.io/tags/latex-%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2024-09-22T18:54:08+08:00</lastmod>
+  </url><url>
+    <loc>https://aysct.github.io/tags/%E9%B2%9C%E8%8A%B1%E4%B8%80%E5%88%99/</loc>
+    <lastmod>2024-09-22T18:54:08+08:00</lastmod>
+  </url><url>
+    <loc>https://aysct.github.io/categories/flo/</loc>
+  </url><url>
+    <loc>https://aysct.github.io/categories/</loc>
+  </url><url>
+    <loc>https://aysct.github.io/page/</loc>
+  </url><url>
+    <loc>https://aysct.github.io/%E5%85%B3%E4%BA%8E/</loc>
+  </url><url>
+    <loc>https://aysct.github.io/%E5%BD%92%E6%A1%A3/</loc>
+  </url><url>
+    <loc>https://aysct.github.io/%E6%90%9C%E7%B4%A2/</loc>
+  </url><url>
+    <loc>https://aysct.github.io/%E5%8F%8B%E9%93%BE/</loc>
+  </url>
+</urlset>
