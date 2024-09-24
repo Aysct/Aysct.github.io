@@ -91,6 +91,34 @@ $$&lt;/p&gt;
 </description>
         </item>
         <item>
+        <title>CF542E Playing on Graph</title>
+        <link>https://aysct.github.io/p/cf542e/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://aysct.github.io/p/cf542e/</guid>
+        <description>&lt;p&gt;先考虑无解情况。&lt;/p&gt;
+&lt;p&gt;我个人在这手模了几个特殊情况。&lt;/p&gt;
+&lt;p&gt;手模了几个奇环，发现无解。&lt;/p&gt;
+&lt;p&gt;手模了几个偶环，发现有解。&lt;/p&gt;
+&lt;p&gt;几颗树是有解的。&lt;/p&gt;
+&lt;p&gt;这里考虑证明无解的充分必要条件。&lt;/p&gt;
+&lt;p&gt;（这里不是严谨的证明顺序）&lt;/p&gt;
+&lt;p&gt;先从无解情况：奇环出发。为了方便讨论，我们假设图中所有点构成奇环。&lt;/p&gt;
+&lt;p&gt;$n=3$ 时，显然无解。&lt;/p&gt;
+&lt;p&gt;假设 $n=2k-1(k \geq 2)$ 时有解，当 $n=2k+1$ 时：&lt;/p&gt;
+&lt;p&gt;第一步合并两个点，图变为一个奇环与一个偶环，有且仅有一个公共点。&lt;/p&gt;
+&lt;p&gt;这里发现变成一个略复杂的结构了，考虑证明复杂结构不破坏奇环。&lt;/p&gt;
+&lt;p&gt;对于一次缩点：&lt;/p&gt;
+&lt;p&gt;如果你不动奇环上的点，对奇环没影响。&lt;/p&gt;
+&lt;p&gt;如果一个在奇环上一个不在，缩环后不会破环奇环的边结构。&lt;/p&gt;
+&lt;p&gt;如果两个都在，就又回归环上了。&lt;/p&gt;
+&lt;p&gt;所以复杂结构不破坏奇环。&lt;/p&gt;
+&lt;p&gt;而奇环的缩点会创造出新的奇环，所以奇环永存（bushi&lt;/p&gt;
+&lt;p&gt;QED（充分条件：有奇环）&lt;/p&gt;
+&lt;p&gt;没有奇环一定可以黑白染色。二分图显然可行。QED（必要条件）。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>关于</title>
         <link>https://aysct.github.io/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

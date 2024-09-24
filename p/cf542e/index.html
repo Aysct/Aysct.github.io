@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="方法论的内容是一般的显示，对于题目的内容可以转题解。\n参考题目：\nCF542E Playing on Graph CF333E Summer Earnings CF396D On Sum of Number of Inversions in Permutations CF341D Iahub and Xors GDKOI2024 提高组 染色 蓝桥杯 2021 省 B 双向排序 CF542E Playing on Graph 总的来说，要意识到你首先要干什么。\n">
-<title>20240924总结</title>
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="先考虑无解情况。\n我个人在这手模了几个特殊情况。\n手模了几个奇环，发现无解。\n手模了几个偶环，发现有解。\n几颗树是有解的。\n这里考虑证明无解的充分必要条件。\n（这里不是严谨的证明顺序）\n">
+<title>CF542E Playing on Graph</title>
 
-<link rel='canonical' href='http://localhost:1313/p/summary240924/'>
+<link rel='canonical' href='https://aysct.github.io/p/cf542e/'>
 
-<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="20240924总结">
-<meta property='og:description' content="方法论的内容是一般的显示，对于题目的内容可以转题解。\n参考题目：\nCF542E Playing on Graph CF333E Summer Earnings CF396D On Sum of Number of Inversions in Permutations CF341D Iahub and Xors GDKOI2024 提高组 染色 蓝桥杯 2021 省 B 双向排序 CF542E Playing on Graph 总的来说，要意识到你首先要干什么。\n">
-<meta property='og:url' content='http://localhost:1313/p/summary240924/'>
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="CF542E Playing on Graph">
+<meta property='og:description' content="先考虑无解情况。\n我个人在这手模了几个特殊情况。\n手模了几个奇环，发现无解。\n手模了几个偶环，发现有解。\n几颗树是有解的。\n这里考虑证明无解的充分必要条件。\n（这里不是严谨的证明顺序）\n">
+<meta property='og:url' content='https://aysct.github.io/p/cf542e/'>
 <meta property='og:site_name' content='Aysct'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='总结' /><meta property='article:tag' content='方法论' />
-<meta name="twitter:title" content="20240924总结">
-<meta name="twitter:description" content="方法论的内容是一般的显示，对于题目的内容可以转题解。\n参考题目：\nCF542E Playing on Graph CF333E Summer Earnings CF396D On Sum of Number of Inversions in Permutations CF341D Iahub and Xors GDKOI2024 提高组 染色 蓝桥杯 2021 省 B 双向排序 CF542E Playing on Graph 总的来说，要意识到你首先要干什么。\n">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='证明' />
+<meta name="twitter:title" content="CF542E Playing on Graph">
+<meta name="twitter:description" content="先考虑无解情况。\n我个人在这手模了几个特殊情况。\n手模了几个奇环，发现无解。\n手模了几个偶环，发现有解。\n几颗树是有解的。\n这里考虑证明无解的充分必要条件。\n（这里不是严谨的证明顺序）\n">
     </head>
     <body class="
     article-page
@@ -223,46 +223,7 @@
     </ol>
 </aside>
 
-    <aside class="sidebar right-sidebar sticky">
-        
-            
-                
-    <section class="widget archives">
-        <div class="widget-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <line x1="5" y1="9" x2="19" y2="9" />
-  <line x1="5" y1="15" x2="19" y2="15" />
-  <line x1="11" y1="4" x2="7" y2="20" />
-  <line x1="17" y1="4" x2="13" y2="20" />
-</svg>
-
-
-
-        </div>
-        <h2 class="widget-title section-title">目录</h2>
-        
-        <div class="widget--toc">
-            <nav id="TableOfContents">
-  <ol>
-    <li>
-      <ol>
-        <li>
-          <ol>
-            <li><a href="#cf542e-playing-on-graph">CF542E Playing on Graph</a></li>
-          </ol>
-        </li>
-      </ol>
-    </li>
-  </ol>
-</nav>
-        </div>
-    </section>
-
-            
-        
-    </aside>
-
+    
 
             <main class="main full-width">
     <article class="main-article">
@@ -272,8 +233,8 @@
     
     <header class="article-category">
         
-            <a href="/categories/%E6%96%B9%E6%B3%95%E8%AE%BA/" >
-                方法论
+            <a href="/categories/%E5%9B%BE%E8%AE%BA/" >
+                图论
             </a>
         
     </header>
@@ -281,7 +242,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/summary240924/">20240924总结</a>
+            <a href="/p/cf542e/">CF542E Playing on Graph</a>
         </h2>
     
         
@@ -320,34 +281,26 @@
     <section class="article-content">
     
     
-    <p>方法论的内容是一般的显示，对于题目的内容可以转题解。</p>
-<p>参考题目：</p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> <a class="link" href="https://codeforces.com/problemset/problem/542/E"  target="_blank" rel="noopener"
-    >CF542E Playing on Graph</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a class="link" href="https://codeforces.com/problemset/problem/333/E"  target="_blank" rel="noopener"
-    >CF333E Summer Earnings</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a class="link" href="https://codeforces.com/problemset/problem/396/D"  target="_blank" rel="noopener"
-    >CF396D On Sum of Number of Inversions in Permutations</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a class="link" href="https://codeforces.com/problemset/problem/341/D"  target="_blank" rel="noopener"
-    >CF341D Iahub and Xors</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a class="link" href="https://www.luogu.com.cn/problem/P10085"  target="_blank" rel="noopener"
-    >GDKOI2024 提高组 染色</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a class="link" href="https://www.luogu.com.cn/problem/P8747"  target="_blank" rel="noopener"
-    >蓝桥杯 2021 省 B 双向排序</a></li>
-</ul>
-<h3 id="cf542e-playing-on-graph">CF542E Playing on Graph
-</h3><p>总的来说，要意识到你首先要干什么。</p>
-<p>存在不合法（无解）的情况时，所以首先要意识到何时无解。</p>
-<p>两个方向：</p>
-<ul>
-<li>什么时候无解，并保证其他时候有解</li>
-<li>什么时候有解，并保证其他时候无解</li>
-</ul>
-<p>即：对于有解/无解其一，得知其充分必要条件。</p>
-<p>不宜拘束于刻板的逻辑推理，有时候先手模在证明也是可以的。</p>
-<p>一般来说：简单结构到复杂结构是好的。</p>
-<p>其次这里指出了：无奇环图必定是二分图。</p>
+    <p>先考虑无解情况。</p>
+<p>我个人在这手模了几个特殊情况。</p>
+<p>手模了几个奇环，发现无解。</p>
+<p>手模了几个偶环，发现有解。</p>
+<p>几颗树是有解的。</p>
+<p>这里考虑证明无解的充分必要条件。</p>
+<p>（这里不是严谨的证明顺序）</p>
+<p>先从无解情况：奇环出发。为了方便讨论，我们假设图中所有点构成奇环。</p>
+<p>$n=3$ 时，显然无解。</p>
+<p>假设 $n=2k-1(k \geq 2)$ 时有解，当 $n=2k+1$ 时：</p>
+<p>第一步合并两个点，图变为一个奇环与一个偶环，有且仅有一个公共点。</p>
+<p>这里发现变成一个略复杂的结构了，考虑证明复杂结构不破坏奇环。</p>
+<p>对于一次缩点：</p>
+<p>如果你不动奇环上的点，对奇环没影响。</p>
+<p>如果一个在奇环上一个不在，缩环后不会破环奇环的边结构。</p>
+<p>如果两个都在，就又回归环上了。</p>
+<p>所以复杂结构不破坏奇环。</p>
+<p>而奇环的缩点会创造出新的奇环，所以奇环永存（bushi</p>
+<p>QED（充分条件：有奇环）</p>
+<p>没有奇环一定可以黑白染色。二分图显然可行。QED（必要条件）。</p>
 
 </section>
 
@@ -356,9 +309,7 @@
     
     <section class="article-tags">
         
-            <a href="/tags/%E6%80%BB%E7%BB%93/">总结</a>
-        
-            <a href="/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/">方法论</a>
+            <a href="/tags/%E8%AF%81%E6%98%8E/">证明</a>
         
     </section>
 
@@ -415,9 +366,9 @@
     <div id="cusdis_thread"
     data-host="https://cusdis.com"
     data-app-id="8dc26e18-48f3-4405-9433-ffc0f9dc736a"
-    data-page-id="c4ce432dc68a5f74bb0e0616e490a756"
-    data-page-url="http://localhost:1313/p/summary240924/"
-    data-page-title="20240924总结"></div>
+    data-page-id="d29977b4acf7eb8ccbc17047798e492f"
+    data-page-url="https://aysct.github.io/p/cf542e/"
+    data-page-title="CF542E Playing on Graph"></div>
     <script async defer src="https://cusdis.com/js/widget/lang/zh-cn.js"></script>
 <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
 
